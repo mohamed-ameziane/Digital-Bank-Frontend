@@ -28,6 +28,7 @@
             <th>ID</th>
             <th>Nom</th>
             <th>Email</th>
+            <th>Operations</th>
           </tr>
           </thead>
           <tbody>
@@ -35,6 +36,9 @@
             <td>{{ customer.id }}</td>
             <td>{{ customer.nom }}</td>
             <td>{{ customer.email }}</td>
+            <td>
+              <button (click)="handleDeleteCustomer(customer)" class="btn btn-danger">Supprimer</button>
+            </td>
           </tr>
           </tbody>
         </table>

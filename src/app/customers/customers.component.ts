@@ -33,4 +33,15 @@ export class CustomersComponent implements OnInit {
       })
     );
   }
+
+  handleDeleteCustomer(customer : Customer) {
+    this.customerService.deleteCustomer(customer.id).subscribe({
+      next : (resp) => {
+        this.handleSearchCustomers();
+      },
+      error : err => {
+        console.log(err);
+      }
+    })
+  }
 }
