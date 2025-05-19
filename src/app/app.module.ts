@@ -8,14 +8,16 @@ import { CustomersComponent } from './customers/customers.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
-import {ReactiveFormsModule} from '@angular/forms';  // <-- FIXED import path
+import {ReactiveFormsModule} from '@angular/forms';
+import { NewCustomerComponent } from './new-customer/new-customer.component';  // <-- FIXED import path
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CustomersComponent,
-    AccountsComponent
+    AccountsComponent,
+    NewCustomerComponent
   ],
   imports: [
     BrowserModule,
