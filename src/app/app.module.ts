@@ -9,7 +9,8 @@ import { AccountsComponent } from './accounts/accounts.component';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import {ReactiveFormsModule} from '@angular/forms';
-import { NewCustomerComponent } from './new-customer/new-customer.component';  // <-- FIXED import path
+import { NewCustomerComponent } from './new-customer/new-customer.component';
+import { CustomerAccountsComponent } from './customer-accounts/customer-accounts.component';  // <-- FIXED import path
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NewCustomerComponent } from './new-customer/new-customer.component';  /
     NavbarComponent,
     CustomersComponent,
     AccountsComponent,
-    NewCustomerComponent
+    NewCustomerComponent,
+    CustomerAccountsComponent
   ],
   imports: [
     BrowserModule,
