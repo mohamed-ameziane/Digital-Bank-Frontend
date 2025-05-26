@@ -109,6 +109,20 @@ http://localhost:4200
 
 ## Demonstration
 
+### 1. Customers  
+![Customers](images/Screenshot%202025-05-27%20004328.png)
+
+### 2. Add New Customer  
+![Add New Customer - Step 1](images/Screenshot%202025-05-27%20004405.png)  
+![Verification](images/Screenshot%202025-05-27%20004419.png)
+
+### 3. Bank Account  
+![Bank Account](images/Screenshot%202025-05-27%20004534.png)
+
+### 4. Debit, Credit, and Transfer  
+![Debit, Credit, and Transfer](images/Screenshot%202025-05-27%20004650.png)  
+![Verification of the Trasfer](images/Screenshot%202025-05-27%20004719.png)
+
 ---
 
 ## Conclusion
